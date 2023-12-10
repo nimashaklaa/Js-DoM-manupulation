@@ -36,4 +36,12 @@ console.log(ul.lastChild);
 ul.childNodes[1].style.backgroundColor='blue';
 
 console.log(ul.firstElementChild);
+
 //Sibling Node Traversal
+
+const div =document.querySelector('div');
+console.log(div.childNodes);
+console.log(ul.previousSibling);
+console.log(ul.previousElementSibling); //outputs => h1.main-heading
+console.log(ul.nextSibling);
+console.log(ul.nextElementSibling);//outouts=>h1.main-heading2
